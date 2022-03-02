@@ -1,3 +1,5 @@
+##### Built for Reactjs projects specially but not limited to it.
+
 Current version is 1.0.0 [very beginning]
 
 This package generates a unique string for different browser. Like chrome, firefox etc.
