@@ -2,8 +2,10 @@
   "name": "@rajesh896/browser-fingerprint",
   "version": "1.0.1",
   "description": "This package generates a unique string for different browser. Like chrome, firefox etc.",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
+    "build:npm": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
