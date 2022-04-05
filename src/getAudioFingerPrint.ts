@@ -1,4 +1,5 @@
 //  ref = https://github.com/rickmacgillis/audio-fingerprint/blob/master/audio-fingerprinting.js
+// @ts-nocheck
 export const getAudioFingerPrint = (function () {
 
     var context = null;
