@@ -1,8 +1,11 @@
-## Built for Reactjs projects specially but not limited to it.
+## Built for Reactjs projects specially but not limited to it, anyone can use this library within any project which usages Javascript.
 
-Current version is 1.0.0 [very beginning]
 
-This package generates a unique string for different browser. Like chrome, firefox etc.
+This package generates a unique string for different browsers. Like chrome, firefox etc. You can easily do the browser fingerprinting with this library. Its small and minimal.
+
+
+### CodeSandbox Example - [Generate browser fingerprint](https://codesandbox.io/s/browser-fingerprinting-generate-unique-device-id-or-browser-id-507n2v)
+</br>
 
 >## **Use in Reactjs**
  
@@ -44,7 +47,7 @@ getDeviceId().then((fingerprint) => {
 </html>
 ```
 
-This package will be updated soon with `ts` support and better functions and code handling. see you 🙂
+- From version `1.1.0` onwards we have a dependency `crypto-js`. If you do not want to have this dependency then use the earlier versions of this library. 
 
 If you want to use it in simple `.html` file, please read the `index.html` file in the root directory.
 

@@ -1,6 +1,6 @@
 {
   "name": "@rajesh896/browser-fingerprint",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "This package generates a unique string for different browser. Like chrome, firefox etc.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
