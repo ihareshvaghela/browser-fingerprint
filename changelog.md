@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 
 
+## [1.1.1] - 2022-04-06
+### Added
+- Ts types updated.
+- Readme updated for better documentation and with sandbox example
+
 ## [1.1.0] - 2022-04-05
 ### Added
 - Typescript support
