@@ -1,6 +1,6 @@
 /**
  * This functions working
  * @Param {null}
- * @return {Promise} - resolve(string)
+ * @return {Promise<string>} - resolve(string)
  */
-export declare const getDeviceId: () => Promise<unknown>;
+export declare const getDeviceId: () => Promise<string>;

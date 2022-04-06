@@ -4,9 +4,9 @@ import { getAudioFingerPrint } from "./getAudioFingerPrint";
 /**
  * This functions working
  * @Param {null}
- * @return {Promise} - resolve(string)
+ * @return {Promise<string>} - resolve(string)
  */
-export const getDeviceId = () => {
+export const getDeviceId = (): Promise<string> => {
     /***
      * @I userMediaFingerPrint
      * @II FingerPrintJs
@@ -182,13 +182,15 @@ export const getDeviceId = () => {
      * @Accuracy - high
      *
      * @param {null}
-     * @return {Promise} - result sha512 hash5Kb+kh34lyLdojGH54E1B4RInTdpp9pwmKJgUJ8T7WgDuk13gAatlJ9DhWCAhejG5xgJnbj2KjQTr9PnwdFU1Q==
+     * @return {Promise<string>} - result sha512 hash5Kb+kh34lyLdojGH54E1B4RInTdpp9pwmKJgUJ8T7WgDuk13gAatlJ9DhWCAhejG5xgJnbj2KjQTr9PnwdFU1Q==
      */
-    const AudioCanvasFingerPrint = new Promise((resolve, reject) => {
+    const AudioCanvasFingerPrint: Promise<string> = new Promise((resolve, reject) => {
         audioFingerPrint.then((audioChannelResult) => {
             // resolve promise with sha512 hashing
             resolve(SHA512(canvasFingerPrint + audioChannelResult).toString(enc.Base64));
-        });
+        }).catch(() => {
+            reject("Cannot generate fingerprint");
+        })
     });
     return AudioCanvasFingerPrint;
 };
