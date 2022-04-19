@@ -8,7 +8,7 @@
 
 
 <p align="center">
-This package generates a unique ID/String for different browsers. Like chrome, firefox and any other browser which supports `canvas fingerPrinting` and `audio FingerPrinting`. You can easily do the browser fingerprinting with this library. Its small and minimal.</p>
+This package generates a unique ID/String for different browsers. Like chrome, Firefox or any other browsers which support `canvas` and `audio` fingerprinting. You can easily do the browser fingerprinting with this library. Its small and minimal.</p>
 
 <p align="center"><a href="https://github.com/Rajesh-Royal/browser-fingerprint"><img src="https://user-images.githubusercontent.com/24524924/163906729-f34e193a-e202-43ae-ba4b-c460da6cc911.gif" width="100%"/></a><a href="#"><img src="http://randojs.com/images/dropShadow.png" width="100%"/></a></p><br/>
 
