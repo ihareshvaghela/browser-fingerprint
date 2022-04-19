@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 
 
+## [1.1.2] - 2022-04-19
+### Added
+- Deployed to netlify.
+- Better documentation added.
 ## [1.1.1] - 2022-04-06
 ### Added
 - Ts types updated.

@@ -1,7 +1,7 @@
 {
   "name": "@rajesh896/browser-fingerprint",
-  "version": "1.1.1",
-  "description": "This package generates a unique string for different browser. Like chrome, firefox etc.",
+  "version": "1.1.2",
+  "description": "This package generates a unique ID/String for different browsers. Like chrome, Firefox and any other browsers which supports canvas and audio Fingerprinting.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
@@ -16,7 +16,17 @@
     "browserfingerprint",
     "fingerprinting",
     "jsfingerprint",
-    "uniquebrowserid"
+    "uniquebrowserid",
+    "nodejs",
+    "cryptography",
+    "fraud-detection",
+    "canvas-fingerprinting",
+    "audio-fingerprinting",
+    "visitor-identifier",
+    "identification",
+    "reactjs",
+    "javascript",
+    "typescript"
   ],
   "author": "Rajesh-Royal",
   "license": "MIT",
