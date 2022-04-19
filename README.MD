@@ -13,11 +13,29 @@ This package generates a unique ID/String for different browsers. Like chrome, f
 <p align="center"><a href="https://github.com/Rajesh-Royal/browser-fingerprint"><img src="https://user-images.githubusercontent.com/24524924/163906729-f34e193a-e202-43ae-ba4b-c460da6cc911.gif" width="100%"/></a><a href="#"><img src="http://randojs.com/images/dropShadow.png" width="100%"/></a></p><br/>
 
 
-##### [CodeSandbox Example](https://codesandbox.io/s/browser-fingerprinting-generate-unique-device-id-or-browser-id-507n2v)
-##### [Live Demo](https://browserfingerprint.netlify.app/) 
+<p align="center"><a href="https://codesandbox.io/s/browser-fingerprinting-generate-unique-device-id-or-browser-id-507n2v" target="_blank">CodeSandbox, </a>
+<a href="https://browserfingerprint.netlify.app/" target="_blank" >Live Demo</a> </p>
+
+## :hear_no_evil:  What's all the hullabaloo?  
+<a href="https://browserfingerprint.netlify.app/" target="_blank">Broprint.js</a> helps JavaScript developers code visitors identifier more simply, readably, and securely. Whether you need to find a unique visitor, do analytics, browser fingerprinting, or do anything of the like while even preventing frauds, we've got you covered at a **cryptographically strong** level. The best part? Our library is extremely lightweight and developer friendly- which means it won't take a toll on your project, and it's uber-simple to implement. This library works on the concept of **canvas** fingerprint and **audio** fingerprint, the final result which a user get is the combination of **audio and canvas fingerprint**. We are using **cryptojs** under the hood for encryptions but you can easily tweek the library to remove the dependency.  <br/><br/><br/>
 </br>
 
->## **Use in Reactjs**
+## :zap:  Fast implementation  
+   **Step 1:** Install using npm or yarn:<br/>
+  
+Using npm:
+```JavaScript
+//Install:
+npm i @rajesh896/browser-fingerprint
+```
+Using Yarn:
+```Javascript
+//Install:
+yarn add @rajesh896/browser-fingerprint
+```
+<br/><br/>
+## :tada:  Examples  
+>### **In Reactjs**
 ```javascript
 import { getDeviceId } from "@rajesh896/browser-fingerprint";
 
@@ -28,8 +46,8 @@ getDeviceId().then((fingerprint) => {
     // the result you receive here is the combination of Canvas fingerprint and audio fingerprint.
 })
 ```
-
->## A simple example of using this script in html file
+<br/>
+>### Using this script in the html files
  1. Execute `npm i @rajesh896/browser-fingerprint`
  2. Then -
 ```html
