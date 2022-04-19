@@ -1,14 +1,23 @@
-## Built for Reactjs projects specially but not limited to it, anyone can use this library within any project which usages Javascript.
+<h1 align="center">Broprint.js</h1>
+<p align="center">The world's easiest, smallest and powerful visitor identifier for browsers.</p>
+
+<p align="center">
+	<a href="https://github.com/Rajesh-Royal/browser-fingerprint"><img src="https://img.shields.io/badge/total%20size-2.12%20KB-brightgreen" height="20"/></a>
+    <a href="https://twitter.com/intent/tweet?text=The world's easiest, smallest and powerful visitor identifier for browsers.&url=https://github.com/Rajesh-Royal/browser-fingerprint&hashtags=javascript,opensource,js,webdev,developers"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
+</p><br/><br/>
 
 
-This package generates a unique string for different browsers. Like chrome, firefox etc. You can easily do the browser fingerprinting with this library. Its small and minimal.
+<p align="center">
+This package generates a unique ID/String for different browsers. Like chrome, firefox and any other browser which supports `canvas fingerPrinting` and `audio FingerPrinting`. You can easily do the browser fingerprinting with this library. Its small and minimal.</p>
+
+<p align="center"><a href="https://github.com/Rajesh-Royal/browser-fingerprint"><img src="https://user-images.githubusercontent.com/24524924/163906729-f34e193a-e202-43ae-ba4b-c460da6cc911.gif" width="100%"/></a><a href="#"><img src="http://randojs.com/images/dropShadow.png" width="100%"/></a></p><br/>
 
 
-### CodeSandbox Example - [Generate browser fingerprint](https://codesandbox.io/s/browser-fingerprinting-generate-unique-device-id-or-browser-id-507n2v)
+##### [CodeSandbox Example](https://codesandbox.io/s/browser-fingerprinting-generate-unique-device-id-or-browser-id-507n2v)
+##### [Live Demo](https://browserfingerprint.netlify.app/) 
 </br>
 
 >## **Use in Reactjs**
- 
 ```javascript
 import { getDeviceId } from "@rajesh896/browser-fingerprint";
 
