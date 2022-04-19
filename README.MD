@@ -80,4 +80,9 @@ getDeviceId().then((fingerprint) => {
 If you want to use it in simple `.html` file, please read the `index.html` file in the root directory.
 
 
-Contributors - @Rajesh-Royal, @nareshprajapati
+## :clap:  Supporters
+[![Stargazers repo roster for @Rajesh-Royal/browser-fingerprint](https://reporoster.com/stars/Rajesh-Royal/browser-fingerprint)](https://github.com/Rajesh-Royal/browser-fingerprint/stargazers)
+[![Forkers repo roster for @nRajesh-Royal/browser-fingerprint](https://reporoster.com/forks/Rajesh-Royal/browser-fingerprint)](https://github.com/Rajesh-Royal/browser-fingerprint/network/members)
+<p align="center"><a href="https://github.com/Rajesh-Royal/browser-fingerprint"><img src="http://randojs.com/images/barsSmallTransparentBackground.gif" alt="Animated footer bars" width="100%"/></a></p>
+<br/>
+<p align="center"><a href="Rajesh-Royal/browser-fingerprint#"><img src="http://randojs.com/images/backToTopButtonTransparentBackground.png" alt="Back to top" height="29"/></a></p>
