@@ -1,14 +1,41 @@
-## Built for Reactjs projects specially but not limited to it, anyone can use this library within any project which usages Javascript.
+<h1 align="center">Broprint.js</h1>
+<p align="center">The world's easiest, smallest and powerful visitor identifier for browsers.</p>
+
+<p align="center">
+	<a href="https://github.com/Rajesh-Royal/browser-fingerprint"><img src="https://img.shields.io/badge/total%20size-2.12%20KB-brightgreen" height="20"/></a>
+    <a href="https://twitter.com/intent/tweet?text=The world's easiest, smallest and powerful visitor identifier for browsers.&url=https://github.com/Rajesh-Royal/browser-fingerprint&hashtags=javascript,opensource,js,webdev,developers"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
+</p><br/><br/>
 
 
-This package generates a unique string for different browsers. Like chrome, firefox etc. You can easily do the browser fingerprinting with this library. Its small and minimal.
+<p align="center">
+This package generates a unique ID/String for different browsers. Like chrome, Firefox or any other browsers which support `canvas` and `audio` fingerprinting. You can easily do the browser fingerprinting with this library. Its small and minimal.</p>
+
+<p align="center"><a href="https://github.com/Rajesh-Royal/browser-fingerprint"><img src="https://user-images.githubusercontent.com/24524924/163906729-f34e193a-e202-43ae-ba4b-c460da6cc911.gif" width="100%"/></a><a href="#"><img src="http://randojs.com/images/dropShadow.png" width="100%"/></a></p><br/>
 
 
-### CodeSandbox Example - [Generate browser fingerprint](https://codesandbox.io/s/browser-fingerprinting-generate-unique-device-id-or-browser-id-507n2v)
+<p align="center"><a href="https://codesandbox.io/s/browser-fingerprinting-generate-unique-device-id-or-browser-id-507n2v" target="_blank">CodeSandbox, </a>
+<a href="https://browserfingerprint.netlify.app/" target="_blank" >Live Demo</a> </p>
+
+## :hear_no_evil:  What's all the hullabaloo?  
+<a href="https://browserfingerprint.netlify.app/" target="_blank">Broprint.js</a> helps JavaScript developers code visitors identifier more simply, readably, and securely. Whether you need to find a unique visitor, do analytics, browser fingerprinting, or do anything of the like while even preventing frauds, we've got you covered at a **cryptographically strong** level. The best part? Our library is extremely lightweight and developer friendly- which means it won't take a toll on your project, and it's uber-simple to implement. This library works on the concept of **canvas** fingerprint and **audio** fingerprint, the final result which a user get is the combination of **audio and canvas fingerprint**. We are using **cryptojs** under the hood for encryptions but you can easily tweek the library to remove the dependency.  <br/><br/><br/>
 </br>
 
->## **Use in Reactjs**
- 
+## :zap:  Fast implementation  
+   **Step 1:** Install using npm or yarn:<br/>
+  
+Using npm:
+```JavaScript
+//Install:
+npm i @rajesh896/browser-fingerprint
+```
+Using Yarn:
+```Javascript
+//Install:
+yarn add @rajesh896/browser-fingerprint
+```
+<br/><br/>
+## :tada:  Examples  
+>### **In Reactjs**
 ```javascript
 import { getDeviceId } from "@rajesh896/browser-fingerprint";
 
@@ -19,8 +46,9 @@ getDeviceId().then((fingerprint) => {
     // the result you receive here is the combination of Canvas fingerprint and audio fingerprint.
 })
 ```
+<br/>
 
->## A simple example of using this script in html file
+>### Using this script in the html files
  1. Execute `npm i @rajesh896/browser-fingerprint`
  2. Then -
 ```html
@@ -52,4 +80,9 @@ getDeviceId().then((fingerprint) => {
 If you want to use it in simple `.html` file, please read the `index.html` file in the root directory.
 
 
-Contributors - @Rajesh-Royal, @nareshprajapati
+## :clap:  Supporters
+[![Stargazers repo roster for @Rajesh-Royal/browser-fingerprint](https://reporoster.com/stars/Rajesh-Royal/browser-fingerprint)](https://github.com/Rajesh-Royal/browser-fingerprint/stargazers)
+[![Forkers repo roster for @nRajesh-Royal/browser-fingerprint](https://reporoster.com/forks/Rajesh-Royal/browser-fingerprint)](https://github.com/Rajesh-Royal/browser-fingerprint/network/members)
+<p align="center"><a href="https://github.com/Rajesh-Royal/browser-fingerprint"><img src="http://randojs.com/images/barsSmallTransparentBackground.gif" alt="Animated footer bars" width="100%"/></a></p>
+<br/>
+<p align="center"><a href="Rajesh-Royal/browser-fingerprint#"><img src="http://randojs.com/images/backToTopButtonTransparentBackground.png" alt="Back to top" height="29"/></a></p>
