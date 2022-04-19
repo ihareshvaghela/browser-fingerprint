@@ -47,6 +47,7 @@ getDeviceId().then((fingerprint) => {
 })
 ```
 <br/>
+
 >### Using this script in the html files
  1. Execute `npm i @rajesh896/browser-fingerprint`
  2. Then -
